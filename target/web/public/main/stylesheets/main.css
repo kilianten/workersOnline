@@ -1,0 +1,111 @@
+body{
+    background-color: #B1E0F6;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 16px;
+    background-color: rgba(100, 195, 239, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(97, 97, 97, 1);
+    background-color: rgba(100, 195, 239, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(168, 216, 240, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(122, 106, 106, 1);
+    background-color: rgba(142, 211, 245, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #8ed3f5;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #8ed3f5;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #8ed3f5;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #64c3ef;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #B1E0F6;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+/* The Close Button */
+.close {
+    color:red; 
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signUpClose {
+    color:rgb(255, 174, 174); 
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.signUpClose:hover,
+.signUpClose:focus {
+    color: rgb(78, 77, 77);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#logo{
+    width: 3em;
+    height: 3em;
+    float: left;
+    margin-left: 0em;
+    margin-right: .5em;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: #F5D7B2;
+    color:white;
+    padding:.9em;
+    margin: 0em;
+    font-family: "Serif Italic";
+}

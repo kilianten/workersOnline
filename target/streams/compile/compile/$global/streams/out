@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/wdd/webapps/workersOnline/app/views/main.scala.html:62:32: method globalError in class Form is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    @loginForm.globalError.message[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -1,0 +1,11 @@
+@(projects: List[models.Project],loginForm: Form[models.users.Login], user: models.users.Employee)
+
+@main("Projects", loginForm, user) {
+  <h1>Projects</h1>
+
+  @for(p<-projects){
+      <h3>@p.getName</h3>
+      <p>@p.getDescription</p>
+  }
+
+}

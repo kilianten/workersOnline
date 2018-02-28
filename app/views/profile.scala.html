@@ -1,0 +1,11 @@
+@(loginForm: Form[models.users.Login], user: models.users.Employee)
+
+@main("Profile - " + user.getFName, loginForm, user) {
+  <h2>Welcome @user.getFName</h2>
+
+  @if(user.getRole=="admin"){
+    <a href="/">
+      <button type="button" class="btn genreBtn">Add Employee to system</button>    <!--admin button !-->  
+    </a>
+  }
+}
